@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	Hello World 
+	</title>
+	<script type="text/javascript" src="angular.min.js"></script>
+</head>
+
+<body ng-app="">
+	<div>
+		<label>Enter your name : </label>
+		<input type = "text" name = "Name" ng-model="Name"/>
+		<h1>Hello, {{Name}}</h1>
+		<h1>Hi,
+			<div ng-bind = "Name">
+
+		</div></h1>
+	</div>
+	
+</body>
+</html>
